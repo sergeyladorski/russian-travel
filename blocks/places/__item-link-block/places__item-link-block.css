@@ -1,0 +1,11 @@
+.places__item-link-block {
+    grid-area: link-block;
+    align-self: end;
+  }
+
+  @media (max-width: 767px) {
+    .places__item-link-block {
+      margin: 0 auto 32px;
+      width: 90%;
+    }
+  }  

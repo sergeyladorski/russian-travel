@@ -1,0 +1,19 @@
+.header {
+    box-sizing: border-box;
+    padding: 28px calc((100% - 1184px)/2) 0;
+    display: flex;
+    justify-content: space-between;
+    background: #2a2c2f;
+  }
+
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .header {
+      padding: 28px 24px 0;
+    }
+  }
+
+  @media (max-width: 767px) {
+    .header {
+      padding: 16px 16px 0;
+    }
+  }

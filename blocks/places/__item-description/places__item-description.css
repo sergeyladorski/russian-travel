@@ -1,0 +1,10 @@
+.places__item-description {
+  grid-area: description;
+}
+
+@media (max-width: 767px) {
+  .places__item-description {
+    margin: 0 auto;
+    width: 90%;
+  }
+}

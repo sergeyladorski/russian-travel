@@ -1,0 +1,36 @@
+.intro__text {
+    margin: 0 0 33px calc((100vw - 984px)/2);
+    max-width: 690px;
+    width: 100%;
+    font-size: 16px;
+    line-height: 1.63;
+    font-family: "Inter", "Arial", "Helvetica", sans-serif;
+    font-weight: 400;
+  }
+
+  @media (min-width: 1024px) and (max-width: 1279px) {
+    .intro__text {
+      margin-left: calc((100% - 928px)/2);
+    } 
+  }
+
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .intro__text {
+      margin-left: 24px;
+      max-width: 720px;
+    } 
+  }
+
+  @media (min-width: 425px) and (max-width: 767px) {
+    .intro__text {
+      width: calc(100% - 40px);
+      margin-left: 20px;
+    }
+  }
+
+  @media (max-width: 424px) {
+    .intro__text {
+      width: calc(100% - 32px);
+      margin-left: 16px;
+    } 
+  }

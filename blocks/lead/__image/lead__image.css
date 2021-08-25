@@ -1,0 +1,18 @@
+.lead__image {
+    width: 984px;
+    margin: 0 auto 8px;
+    object-fit: cover;
+    display: flex;
+  }
+
+  @media (min-width: 1024px) and (max-width: 1279px) {
+    .lead__image {
+      width: 928px;
+    }
+  }
+
+  @media (max-width: 1023px) {
+    .lead__image {
+      width: 100%;
+    }
+  }

@@ -1,0 +1,26 @@
+.places__item-image {
+  grid-area: image;
+  width: 100%;
+  min-height: 460px;
+  object-position: center;
+  object-fit: cover;
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .places__item-image {
+    min-height: 440px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .places__item-image {
+    min-height: 340px;
+  }
+}
+
+@media (max-width: 767px) {
+  .places__item-image {
+    min-height: 320px;
+    margin-bottom: 32px;
+  }
+}

@@ -1,0 +1,16 @@
+.places__item-url {
+    color: #aaaaaa;
+    font-size: 12px;
+    line-height: 1;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin: 0 0 12px;
+    font-family: "Inter", "Arial", "Helvetica", sans-serif;
+    font-weight: 400;
+  }
+
+  @media (max-width: 767px) {
+    .places__item-url {
+      margin-bottom: 12px;
+    }
+  }  

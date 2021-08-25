@@ -1,0 +1,11 @@
+.header__links {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 18px;
+  grid-auto-flow: column;
+  grid-auto-columns: 1fr;
+  align-self: flex-end;
+}
