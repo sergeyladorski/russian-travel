@@ -24,6 +24,6 @@
 * Дополнить формой обратной связи и ссылками на соцсети для связи с автором проекта.
 ------
 
-Перейти на [страницу проекта](https://sergeyladorski.github.io/russian-travel-sl/).
+Перейти на [страницу проекта](https://sergeyladorski.github.io/russian-travel/).
 
 Больше моих проектов на [GitHub](https://github.com/sergeyladorski).
