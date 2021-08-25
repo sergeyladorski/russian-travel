@@ -31,7 +31,7 @@
     opacity: 0.8;
   }
 
-  @media (max-width: 1024px) and (max-width: 1279px) {
+  @media (min-width: 1024px) and (max-width: 1279px) {
     .cover__link {
       max-width: 1024px;
     }
