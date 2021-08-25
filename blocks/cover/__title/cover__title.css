@@ -23,9 +23,22 @@
 
   @media (max-width: 767px) {
     .cover__title {
-      margin-top: 33px;
+      width: 90%;
+    }
+  }
+
+  @media (min-width: 425px) and (max-width: 767px) {
+    .cover__title {
+      margin-top: 15%;
+      margin-bottom: 20px;
+      font-size: 48px;
+    }
+  }
+
+  @media (max-width: 424px) {
+    .cover__title {
+      margin-top: 10.3125%;
       margin-bottom: 16px;
-      max-width: 288px;
       font-size: 32px;
     }
   }
