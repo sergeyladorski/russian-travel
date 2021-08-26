@@ -10,6 +10,7 @@
     background-size: cover;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     z-index: 0;
 
   }
@@ -34,6 +35,7 @@
   @media (min-width: 1024px) and (max-width: 1279px) {
     .cover__link {
       max-width: 1024px;
+      min-height: 640px;
     }
   }
   
