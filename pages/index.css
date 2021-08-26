@@ -12,10 +12,10 @@
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__links/header__links.css);
 @import url(../blocks/header/__link/hrader__link.css);
+@import url(../blocks/header/__link/_active/header__link_active.css);
 
 /*link*/
 @import url(../blocks/link/link.css);
-@import url(../blocks/link/_active/link_active.css);
 
 /*lead*/
 @import url(../blocks/lead/lead.css);
