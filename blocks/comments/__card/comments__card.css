@@ -1,0 +1,9 @@
+@media screen and (max-width: 1023px) {
+  .comments__card {
+    display: grid;
+    grid-template-areas:
+      "image"
+      "author"
+      "quote";
+  }
+}

@@ -1,0 +1,29 @@
+.comments__list {
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(3, calc((100% - 38px) / 3));
+  column-gap: 19px;
+}
+
+@media screen and (max-width: 1023px) {
+  .comments__list {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .comments__list {
+    max-width: 50vw;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .comments__list {
+    max-width: 90vw;
+  }
+}

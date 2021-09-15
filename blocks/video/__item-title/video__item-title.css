@@ -1,0 +1,29 @@
+.video__item-title {
+  margin: 0 0 18px;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 1.1;
+  max-width: 322px;
+  width: 100%;
+}
+
+@media screen and (max-width: 1023px) {
+  .video__item-title {
+    font-size: 24px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .video__item-title {
+    font-size: 24px;
+    margin-bottom: 12px;
+    max-width: 252px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .video__item-title {
+    margin-bottom: 4px;
+    max-width: 256px;
+  }
+}

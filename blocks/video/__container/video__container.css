@@ -1,0 +1,22 @@
+.video__container {
+  width: 100%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 18px;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .video__container {
+    gap: 16px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .video__container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+}
+
