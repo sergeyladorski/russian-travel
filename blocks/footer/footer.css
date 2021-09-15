@@ -1,11 +1,9 @@
 .footer {
     box-sizing: border-box;
     padding: 92px calc((100% - 1184px)/2) 24px;
-    background: #2a2c2f;
     display: flex;
     gap: 48px;
     justify-content: space-between;
-    color: #ffffff;
   }
 
   @media (min-width: 1024px) and (max-width: 1279px) {

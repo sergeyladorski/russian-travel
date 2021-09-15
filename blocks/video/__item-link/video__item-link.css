@@ -1,0 +1,42 @@
+.video__item-link {
+  margin: 0 auto;
+  width: 100%;
+  min-height: 323px;
+  text-decoration: none;
+  color: #ffffff;
+  border-radius: 5px;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  z-index: 1;
+  align-items: flex-end;
+}
+
+.video__item-link::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: #000000;
+  opacity: 0.5;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .video__item-link {
+    min-height: 28.125vw;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .video__item-link {
+    min-height: 26.042vw;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .video__item-link {
+    min-height: 60vw;
+  }
+}

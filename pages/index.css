@@ -49,6 +49,29 @@
 @import url(../blocks/places/__item-description/places__item-description.css);
 @import url(../blocks/places/__item-text/places__item-text.css);
 
+/*video*/
+@import url(../blocks/video/video.css);
+@import url(../blocks/video/__title/video__title.css);
+@import url(../blocks/video/__subtitle/video__subtitle.css);
+@import url(../blocks/video/__container/video__container.css);
+@import url(../blocks/video/__item-link/video__item-link.css);
+@import url(../blocks/video/__item-image/video__item-image.css);
+@import url(../blocks/video/__item-play-icon/video__item-play-icon.css);
+@import url(../blocks/video/__item-desc/video__item-desc.css);
+@import url(../blocks/video/__item-duration/video__item-duration.css);
+@import url(../blocks/video/__item-title/video__item-title.css);
+@import url(../blocks/video/__item-subtitle/video__item-subtitle.css);
+
+/*comments*/
+@import url(../blocks/comments/comments.css);
+@import url(../blocks/comments/__title/comments__title.css);
+@import url(../blocks/comments/__subtitle/comments__subtitle.css);
+@import url(../blocks/comments/__list/comments__list.css);
+@import url(../blocks/comments/__card/comments__card.css);
+@import url(../blocks/comments/__image/comments__image.css);
+@import url(../blocks/comments/__quote/comments__quote.css);
+@import url(../blocks/comments/__author/comments__author.css);
+
 /*cover*/
 @import url(../blocks/cover/cover.css);
 @import url(../blocks/cover/__link/cover__link.css);

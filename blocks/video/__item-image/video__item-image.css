@@ -1,0 +1,29 @@
+.video__item-image {
+  width: 100%;
+  height: 323px;
+  object-fit: cover;
+  object-position: center;
+  z-index: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .video__item-image {
+    height: 28.125vw;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .video__item-image {
+    height: 26.042vw;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .video__item-image {
+    height: 60vw;
+  }
+}
+
