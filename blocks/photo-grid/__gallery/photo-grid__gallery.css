@@ -11,7 +11,7 @@
 
   @media (min-width: 1024px) and (max-width: 1279px) {
     .photo-grid__gallery  {
-      max-width: 928px;
+      width: 90.625vw;
       grid-template-columns: repeat(auto-fit, calc((100% - 28px) / 3));
       gap: 14px;
     }
@@ -19,7 +19,7 @@
 
   @media (min-width: 768px) and (max-width: 1023px) {
     .photo-grid__gallery  {
-      max-width: 720px;
+      width: 93.75vw;
       grid-template-columns: repeat(auto-fit, calc((100% - 16px) / 2));
       gap: 16px;
     }
@@ -29,7 +29,7 @@
     .photo-grid__gallery  {
       display: flex;
       flex-direction: column;
-      width: 288px;
+      width: 90vw;
       gap: 12px;
     }
   }

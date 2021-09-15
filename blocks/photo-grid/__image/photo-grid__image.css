@@ -1,5 +1,11 @@
 .photo-grid__image {
   width: 100%;
   object-position: center;
-  object-fit: contain;
+  object-fit: cover;
+  transition: transform 0.3s ease-in-out;
+}
+
+.photo-grid__image:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 4px 0px rgba(0, 0, 0, 0.45);
 }
